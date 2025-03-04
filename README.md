@@ -8,23 +8,23 @@ Dataplane Router
 
 Descriere generala cod:
 
-    Am implementat functionalitatile routerului urmand cat mai indeaproape pasii din cerinta.
+Am implementat functionalitatile routerului urmand cat mai indeaproape pasii din cerinta.
 Am implementat tot ce se cerea, adica am folosit cautare binara pentru un Longest Prefix Match
 eficient, am implementat procesul de dirijare, am adaugat si protocolul ARP (nu folosesc tabela
 statica de ARP) si in cod este regasit si protocolul ICMP. Astfel, am reusit sa obtin punctaj
 la toate testele. Pentru aceasta tema, am plecat de la notiunile invatate si implementate la
 laborator.
 
-    In cod am pus un numar mare de comentarii pentru un debugging mai usor si pentru o intelegere
+In cod am pus un numar mare de comentarii pentru un debugging mai usor si pentru o intelegere
 mai usoara a fluxului programului.
 
-    Codul este impartit in main si cateva functii specifice cazurilor pe care trebuie sa le
+Codul este impartit in main si cateva functii specifice cazurilor pe care trebuie sa le
 trateze routerul.
 
-    In main se fac verificarile generale specifice pachetelor. Main-ul apeleaza functiile
+In main se fac verificarile generale specifice pachetelor. Main-ul apeleaza functiile
 corespunzatoare si decide ce cazuri trebuie tratate in functie de datele din headere.
 
-    Avem functiile:
+Avem functiile:
 
 - get_best_route_binary : functie de cautare binara care implementeaza algoritmul de Longest
 Prefix Match.
