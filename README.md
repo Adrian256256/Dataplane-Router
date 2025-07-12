@@ -4,7 +4,7 @@
 
 ## General Description
 
-This project implements the core functionalities of a dataplane router, closely following the assignment requirements. The implementation includes:
+This project implements the core functionalities of a dataplane router. The implementation includes:
 
 - **Longest Prefix Match (LPM)** using **binary search** for efficient route lookup.  
 - Routing process handling incoming packets and forwarding them appropriately.  
